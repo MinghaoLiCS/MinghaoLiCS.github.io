@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body{
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: white;
+}
+
+section{
+    width: 100%;
+
+    background-image:url("../images/bgPhoto1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: white;
+    box-shadow: 2px 2px 60px rgba(0,0,0,0.2);
+    padding:0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family:cursive;
+    color:grey;
+    font-size: 20px;
+    font-weight: 800;
+}
+.logo{
+    font-family:"Papyrus";
+    color:black;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+button:active{
+    transform: scale(1.2);
+}
+.active{
+    font-weight: bold;
+    color:#2d2a2a;
+}
+
+.about-container{
+    width: 90%;
+    height:500px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 60px rgba(0,0,0,0.2);
+    display: flex;
+    margin:1% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-container img{
+    height:350px;
+}
+.about-text{
+    width: 700px;
+}
+.about-text p:nth-child(1){
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+}
+.about-text p:nth-child(2){
+    color: grey;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    line-height: 20px;
+}
+.about-text p:nth-child(3){
+    color: grey;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    line-height: 20px;
+}
+.about-text p:nth-child(4){
+    color: grey;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    line-height: 20px;
+}
+
+.contact-me{
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/bgPhoto2.png");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.contact-me p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+footer{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons i{
+    color: skyblue;
+}
+.social-icons a:hover{
+    background-color: grey;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
